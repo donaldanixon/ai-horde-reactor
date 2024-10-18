@@ -1,0 +1,20 @@
+.GenerationContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+  padding: 24px;
+  color: #eaeaea;
+  gap: 24px;
+}
+
+.InfoFooter {
+  font-size: 0.75rem;
+  font-weight: 300;
+  text-align: center;
+  color: #eaeaea;
+  margin: 0 auto;
+  padding-bottom: 24px;
+}

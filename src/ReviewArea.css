@@ -1,0 +1,10 @@
+.ReviewAreaContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: none;
+  color: #eaeaea;
+  padding: 8px;
+  width: 55%;
+}

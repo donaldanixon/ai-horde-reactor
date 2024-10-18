@@ -1,0 +1,10 @@
+.HeroTagline {
+  position: relative;
+  top: 256px;
+  left: 48px;
+  max-width:500px;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #eaeaea;
+
+}

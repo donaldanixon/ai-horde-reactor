@@ -1,0 +1,62 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+  color: #eaeaea;
+  border-width: 0 0 3px 0;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #468169;
+}
+
+.HeaderTitleCard {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.HeaderTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.HeaderLogo {
+  max-width: 48px;
+  max-height: 48px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.HeaderMenu {
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.HeaderMenuItem:hover {
+  text-decoration: underline;
+  text-decoration-color: #468169;
+  text-underline-offset: 4px;
+}
+
+.HeaderMenuItemSelected {
+  text-decoration: underline;
+  text-decoration-color: #468169;
+  text-underline-offset: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: #eaeaea;
+}
+
+a::after {  
+  text-decoration: none;
+  color: #eaeaea;
+}

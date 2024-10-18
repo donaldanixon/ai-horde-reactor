@@ -1,0 +1,65 @@
+.PromptAreaContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #eaeaea;
+  width: 40%;
+}
+
+.Tabs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  gap: 8px;
+
+  width: 100%;
+}
+
+.Tab {
+  border-radius: 8px 8px 0 0;
+  border-style: solid;
+  border-width: 0;
+  padding: 8px 16px;
+  width: 50%;
+  box-shadow: -2px -2px 5px #468169;
+  cursor: pointer;
+  font-size: 0.75rem;
+}
+
+.TabSelected {
+  border-radius: 8px 8px 0 0;
+  border-style: solid;
+  border-width: 0;
+  background-color: #468169;
+  color: #eaeaea;
+  padding: 8px 16px;
+  width: 50%;
+  box-shadow: -2px -2px 5px #468169;
+  cursor: pointer;
+  font-size: 0.75rem;
+}
+
+.PromptArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  color: #eaeaea;
+  width: 100%;
+  border: #eaeaea 1px solid;
+  border-radius: 8px;
+}
+
+.PromptAreaCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #eaeaea;
+  width: 100%;
+}
