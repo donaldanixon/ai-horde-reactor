@@ -63,3 +63,54 @@
   color: #eaeaea;
   width: 100%;
 }
+
+.PromptAreaItem {
+  display: flex;
+  flex-direction: column  ;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #eaeaea;
+  width: 100%;
+  padding: 8px;
+}
+
+.PromptAreaAdvanced {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  color: #eaeaea;
+  width: 100%;
+  padding: 8px;
+  gap: 16px;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.PromptAreaItemTitle {
+  font-size: 0.75rem;
+  font-weight: 400;
+  padding: 8px 16px;
+}
+
+.PromptAreaTextInput {
+  margin: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  border: #eaeaea 1px solid;
+  width: calc(100% - 32px);
+  resize: vertical;
+  background-color: RGBA(24, 24, 24, 1);
+  color: #eaeaea;
+}
+
+.PromptAreaSelectInput {
+  margin: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  border: #eaeaea 1px solid;
+  width: calc(100% - 16px);
+  resize: vertical;
+  background-color: RGBA(24, 24, 24, 0.8);
+  color: #eaeaea;
+}

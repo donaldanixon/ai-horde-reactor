@@ -1,7 +1,7 @@
 import React from 'react'
 import './PromptArea.css'
 
-function AdvancedImagePrompt() {
+function TextPrompt() {
     return (
       <>
         <div className="PromptAreaCard">
@@ -11,4 +11,4 @@ function AdvancedImagePrompt() {
     )
   }
   
-  export default AdvancedImagePrompt
+  export default TextPrompt
