@@ -1,5 +1,5 @@
 .Background {
-  background-image: linear-gradient(to bottom, #eaeaea, #468169, #eaeaea);
+  background-image: linear-gradient(to bottom, #468169, #eaeaea);
   width: 100%;
   height: 100vh;
   margin: 0;
@@ -33,7 +33,7 @@
   inset: 0;
   transform: 
     rotateY( calc( (var(--position) - 1) * (360/var(--quantity)) * 1deg ) )
-    translateZ(min(400px, 80vw));
+    translateZ(min(450px, 80vw));
 }
 
 .Background .Slider .Item img {
@@ -46,9 +46,9 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 90%;
+  width: 80vw;
   height: max-content;
-  padding: 5vw;
+  padding: 2vw 10vw;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -57,32 +57,35 @@
 }
 
 .PreHeader {
-  font-size: min(1.5rem, 4vw);
+  font-size: min(1rem, 4vw);
   font-weight: 700;
   color: #242424;
   text-align: left;
-  -webkit-text-stroke: 1px #eaeaea;
+  /* -webkit-text-stroke: 1px #eaeaea; */
   line-height: 1;
+  width:100%;
 }
 
-@media (max-width: 330px) {
+@media (max-width: 350px) {
   .PreHeader {
+    color: #eaeaea;
     -webkit-text-stroke: 0px #eaeaea;
   }  
 }
 
 .Tagline {
-  font-size: min(9rem, 24vw);
+  font-size: min(6rem, 24vw);
   font-weight: 900;
   text-align: left;
   color: #242424;
   position: relative;
   -webkit-text-stroke: 2px #eaeaea;
   line-height: 1;
+  width:100%;
 }
 
 .Blurb {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 300;
   font-style: italic;
   color: #242424;
@@ -98,8 +101,8 @@ button {
   background-color: #468169;
   color: #eaeaea;
   border: 1px solid #468169;
-  border-radius: 8px;
-  padding: 8px 16px;
+  border-radius: 48px;
+  padding: 24px 64px;
   font-size: 1.25rem;
   font-weight: 400;
   text-align: center;
@@ -108,5 +111,11 @@ button {
 
 .GetStartedContainer {
   text-align: center;
-  padding-top: 24px;
+  padding-top: 36px;
+}
+
+.Blurb a {
+  color: #242424;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }

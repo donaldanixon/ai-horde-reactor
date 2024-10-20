@@ -29,9 +29,9 @@ function Welcome() {
         </div>
         <div className="overlayContainer">
           <div className="PreHeader">POWERED BY THE AI HORDE</div>
-          <div className="Tagline">FREE AI ART/TEXT</div>
+          <div className="Tagline">FREE AI ART / TEXT</div>
           <div className="Blurb">
-            Crowdsourced distributed workers bringing AI art & text generation to the masses for free. If you like the service consider <a href='https://github.com/Haidra-Org/AI-Horde/blob/main/README_StableHorde.md#joining-the-horde' target='_blank'>joining the horde</a>.
+            Crowdsourced distributed workers bringing AI art & text generation to the masses for free.<br /> If you like the service consider <a href='https://github.com/Haidra-Org/AI-Horde/blob/main/README_StableHorde.md#joining-the-horde' target='_blank'>joining the horde</a>.
           </div>
           <div className="GetStartedContainer"> 
             <Link to="/create"><button className='GetStartedButton'>Start Generating</button></Link>
