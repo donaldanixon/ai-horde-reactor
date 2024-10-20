@@ -9,9 +9,8 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <HashRouter basename='/'>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/" element={<Welcome />}></Route>
         <Route path="/create" element={<Home />}></Route>
-        <Route path="/about" element={<Welcome />}></Route>
       </Routes>
     </HashRouter>
   </StrictMode>,

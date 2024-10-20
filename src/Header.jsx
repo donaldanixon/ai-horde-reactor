@@ -12,7 +12,7 @@ function Header(currentPage) {
           <div className="HeaderTitle">AI Horde - Image & Text Generator</div>
         </div>
         <div className="HeaderMenu">
-          <div className={currentPage.currentPage === 'Create' ? 'HeaderMenuItemSelected' : 'HeaderMenuItem'}><Link to="/">Create</Link></div>
+          <div className={currentPage.currentPage === 'Create' ? 'HeaderMenuItemSelected' : 'HeaderMenuItem'}><Link to="/create">Create</Link></div>
           <div className={currentPage.currentPage === 'Gallery' ? 'HeaderMenuItemSelected' : 'HeaderMenuItem'}>Gallery</div>
           <div className={currentPage.currentPage === 'Settings' ? 'HeaderMenuItemSelected' : 'HeaderMenuItem'}>Settings</div>
           <div className={currentPage.currentPage === 'About' ? 'HeaderMenuItemSelected' : 'HeaderMenuItem'}><Link to="/about">About</Link></div>
